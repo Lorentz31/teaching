@@ -587,7 +587,7 @@ Possible solutions include effect selection, aggregation, robust variance estima
 
 &lt;h2&gt;Fixed-effect model&lt;/h2&gt;
 
-Assumes that all studies estimate **one common true effect**.
+Assumes that all studies estimate &lt;h2&gt;one common true effect&lt;/h2&gt;.
 
 &lt;div class=&quot;equation&quot;&gt;w&lt;sub&gt;i&lt;/sub&gt; = 1 / v&lt;sub&gt;i&lt;/sub&gt;&lt;/div&gt;
 
@@ -598,7 +598,7 @@ Differences among observed effects are attributed to sampling error.
 
 &lt;h2&gt;Random-effects model&lt;/h2&gt;
 
-Assumes that true effects **vary across studies**.
+Assumes that true effects &lt;h2&gt;vary across studies&lt;/h2&gt;.
 
 &lt;div class=&quot;equation&quot;&gt;w&lt;sub&gt;i&lt;/sub&gt; = 1 / (v&lt;sub&gt;i&lt;/sub&gt; + τ²)&lt;/div&gt;
 
@@ -677,7 +677,7 @@ fit_re &lt;- rma(yi, vi, data = bcg_es, method = &quot;REML&quot;)
    &lt;th style=&quot;text-align:right;&quot;&gt; Studies &lt;/th&gt;
    &lt;th style=&quot;text-align:right;&quot;&gt; RR &lt;/th&gt;
    &lt;th style=&quot;text-align:left;&quot;&gt; 95% CI &lt;/th&gt;
-   &lt;th style=&quot;text-align:right;&quot;&gt; tau² &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;&quot;&gt; τ² &lt;/th&gt;
    &lt;th style=&quot;text-align:left;&quot;&gt; I² &lt;/th&gt;
   &lt;/tr&gt;
  &lt;/thead&gt;
