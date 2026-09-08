@@ -1,3 +1,3 @@
 # Introduction to Meta-analysis
 
-An introductory presentation on meta-analysis covering research-question formulation, effect-size selection, sampling variance, statistical dependence, and the distinction between fixed-effect and random-effects models. The slides also address heterogeneity, prediction intervals, moderators, forest plots, funnel plots, and common threats to valid evidence synthesis. Worked analyses are generated in R with `metafor` using its built-in BCG vaccination dataset.
+An introduction to meta-analysis covering effect sizes, dependence, model selection, heterogeneity, moderators, and graphical interpretation, with reproducible examples in R using `metafor`.
